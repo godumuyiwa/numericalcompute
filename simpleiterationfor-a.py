@@ -3,9 +3,9 @@ def simpleiterusingfor(a):
     x = a
     for loops in range (1,101):
         #using a for loop without any accuracy set
-        x_new = sqrt((3+5*x)/5)
+        x_new = sqrt((-3+5*x)/2)
         print(loops, x_new)
-        if abs(x_new - x) < 0.0000001 :
+        if abs(x_new - x) < 0.0000001:
             break
         else:
             x = x_new
